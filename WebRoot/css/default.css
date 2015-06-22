@@ -1,0 +1,89 @@
+* {margin:0; padding:0; }
+body{
+	background:#fff; margin:0 auto; font-family:"Microsoft YaHei";
+	-moz-user-select:none;/*»ðºü*/
+	-webkit-user-select:none;/*webkitä¯ÀÀÆ÷*/
+	-ms-user-select:none;/*IE10*/
+	-khtml-user-select:none;/*ÔçÆÚä¯ÀÀÆ÷*/
+	user-select:none;
+	}
+a {text-decoration:none; color:#fff; }
+p {cursor:default; }
+/* top */
+.top {width:100%; height:100px; background:#333; }
+.top .logo {margin-left:100px; padding-top:5px; }
+.top .logo img,.company-name {float:left; color:#fff;  }
+.top .logo .company-name {padding-top:20px; font-size:20px; }
+.top .nav {padding-right:100px; float:right; padding-top:30px; }
+.top .nav ul li {list-style:none; float:left; padding:0 15px; font-size:18px; }
+.top .nav ul li a:hover {color:#09c;  }
+
+.top-show {width:100%; height:400px; background:url("../images/banner1.jpg") no-repeat center; position:relative; }
+.top-show .top-show-banner {position:absolute; top:0; left:0; display:none; }
+
+.top-nav {width:100%; height:50px; }
+.top-nav .n-box{width:90%; height:50px; margin:0 auto; }
+.top-nav .n-box ul li {height:50px; list-style:none; padding:0 50px; float:left; line-height:50px; color:#333; }
+.top-nav .n-box ul li:hover {background:#ccc; cursor:pointer; border-bottom:2px solid #09c; }
+.top-nav .n-box a {color:#333; }
+
+/* business */
+.content-business {width:100%; height:400px; background:#f3f3f3;}
+.content-business .c-b-title {width:1200px; height:50px; margin:0 auto; border-top:2px solid #ddd; line-height:50px; color:#09c; font-size:20px; }
+.content-business .c-b-box {width:100%; height:400px; background:url("../images/product.png") center; position:relative; }
+.content-business .c-b-box #c-b-focus {width:272px; height:208px; display:block; background:url("../images/focus.png"); position:absolute; left:650px; top:0px; display:none; }
+.content-business .c-b-box #c-b-text {display:block; font-size:26px; color:#09c; position:absolute; left:650px; top:255px; display:none; }
+
+/* works */
+.content-works {width:100%; height:450px; background:#f3f3f3; }
+.content-works .c-w-title {width:1200px; height:50px; margin:0 auto; border-top:2px solid #ddd; line-height:50px; color:#09c; font-size:20px; }
+.content-works .c-w-box {width:100%;  height:400px; background:url("../images/product2.png") center; position:relative; }
+.content-works .c-w-box #c-w-erp1 {width:288px; height:244px; display:block; display:none; position:absolute; top:0px; left:100px; background:url("../images/erp1.png");}
+.content-works .c-w-box #c-w-text {display:block; display:none; position:absolute; top:200px; left:300px; font-size:26px; color:#09c;}
+
+
+/* customer */
+.content-customer {width:100%; height:150px; background:#f3f3f3;}
+.content-customer .c-c-title {width:1200px; height:50px; margin:0 auto; border-top:2px solid #ddd; line-height:50px; color:#09c; font-size:20px; }
+.content-customer .c-c-box {width:1200px; margin:0 auto; }
+.content-customer .c-c-box .c-c-list {width:150px; height:50px; border:1px solid #09c; float:left; margin:0 10px; box-shadow:2px 2px 15px #ddd; text-align:center; color:#f3f3f3; line-height:50px; font-size:14px; background:#09c; cursor:default; }
+.content-customer .c-c-box .c-c-list:hover {background:#f3f3f3; color:#333; }
+
+/* bottom */
+.bottom {width:100%; height:200px; background:#1e1e1e; position:relative; }
+.bottom .bottom-box {width:1000px; height:150px; margin:0 auto; }
+
+.bottom .bottom-box .bottom-list { height:150px; font-size:12px; color:#ccc; float:left; }
+.bottom .bottom-box .bottom-list .list-title {height:60px; line-height:70px;  font-size:14px; border-bottom:1px solid #666; }
+.bottom .bottom-box .bottom-list .list-title:hover {font-weight:bold; cursor:pointer; }
+.bottom .bottom-box .bottom-list p {height:20px; line-height:20px; }
+.bottom .bottom-box .bottom-list .h10 {height:10px; }
+.bottom .bottom-box .link {width:130px; }
+.bottom .bottom-box .support {width:260px; }
+.bottom .bottom-box .focus {width:120px;  }
+.bottom .bottom-box .address {width:320px;  }
+.bottom .bottom-box .QRCode {width:130px; position:relative; }
+.bottom .bottom-box .QRCode img:hover {cursor:pointer; }
+.bottom .bottom-box .QRCode #h-qrcode {position:absolute; top:65px; left:0px; display:none; }
+.bottom .bottom-box .focus p {height:45px; }
+.bottom .bottom-box .bottom-list .focus-box {width:38px;height:35px;display:block; position:relative; overflow:hidden; border-radius:5px;  }
+.bottom .bottom-box .bottom-list i {width:30px;height:80px;display:block;background:url("../images/share.png") no-repeat; position:absolute; }
+#qq-ico {background-position:-80px 5px; }
+#sina-ico {background-position:6px 5px; } 
+
+#goTop {width:40px; height:60px; position:absolute; bottom: 210px; right:10px; font-size:14px; text-align:center; line-height:60px; cursor:pointer; border-radius:5px; background:#09c; color:#f3f3f3;}
+#goTop:hover{background:#333;}
+
+
+/* pay */
+.pay_box {width:1000px; height:100%; background:#f0f0f0; margin:0 auto; font-size:14px;  }
+.pay_box .pay_p {width:900px; height:300px; margin:0 auto; padding:30px; }
+.pay_box .pay_p .pay_title {line-height:40px; font-size:18px;} 
+.pay_box .pay_p span {width:90px; display:block; float:left; text-align:right;  }
+.pay_box .pay_p p {padding:5px; }
+.pay_box .pay_p input[type="text"],[type="password"] {width:100px; height:15px; padding:5px; }
+.pay_box .pay_p input[type="button"] {width:90px; height:30px; margin-left:90px; }
+#remark {width:400px; }
+.pay_box .pay_p select {width:250px; height:30px; }
+
+.pay_box .pay_p .pay_info { margin-top:50px;  }
